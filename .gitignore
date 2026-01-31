@@ -1,0 +1,40 @@
+# --- Python Basics ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Build & Distribution (Created by pip install) ---
+build/
+dist/
+*.egg-info/
+src/*.egg-info/
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+.env
+
+# --- Testing & Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- IDE Settings (Optional but recommended) ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- PROJECT SPECIFIC ---
+# Ignore large video files so you don't accidentally upload a movie to GitHub!
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.flv
+
