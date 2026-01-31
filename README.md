@@ -44,8 +44,11 @@ pip install -e .
 ```
 
 
-
+### Option 2: Standard Method
+Using standard pip and import to acquire the module
 ```python 
+
+# Run the command "pip install moviesigdb" in a terminal in the project directory
 import moviesigdb as msdb
 
 # 1. Load your video
